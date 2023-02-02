@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: 'FiraGO';
+}
+
+body{
+    margin:0;
+    padding-left: 110px;
+    padding-right: 108px;
+}
+
+table{
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+h1{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+
+.first_table th{
+
+    height: 50px;
+    width: 1123px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    
+}
+
+.first_table td{
+    height: 84px;
+    width: 1123px;
+    padding-left: 25px;
+}
+
+.first_table, .first_table th, .first_table tr, .first_table td{
+    border:1px solid #EDEDED;
+}
+
+.first_table td>input{
+    width: 266px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+
+#BTN{
+ 
+    width: 135px;
+    height: 40px;
+    left: 1152px;
+    top: 169px;
+
+    border: 0;
+    background: #FFDD04;
+    border-radius: 10px;
+    
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+    
+}
+
+.CU{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CU>h1{
+    width: 106px;
+    height: 24px;
+    left: 110px;
+    top: 308px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+#CU{
+ 
+    width: 136px;
+    height: 35px;
+    left: 1191px;
+    top: 300px;
+
+    border: 0;
+    background: #FFDD04;
+    border-radius: 10px;
+
+    
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+}    
+
