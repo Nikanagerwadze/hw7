@@ -25,8 +25,9 @@ h1{
 
 }
 
-
 .first_table th{
+    padding-left: 25px;
+    text-align: left;
 
     height: 50px;
     width: 1123px;
@@ -49,6 +50,18 @@ h1{
 
 .first_table, .first_table th, .first_table tr, .first_table td{
     border:1px solid #EDEDED;
+}
+
+.first_table th{
+    border: 0;
+}
+
+.first_table td{
+    border: 0;
+}
+
+.NEMS{
+  background-color: #FAFAFA;  
 }
 
 .first_table td>input{
@@ -123,5 +136,69 @@ h1{
     line-height: 18px;
     
     color: #000000;
-}    
+}   
 
+.second_table{
+    border: 1px solid #EDEDED;
+}
+
+.second_table th{
+
+    padding-left: 25px;
+    text-align: left;
+
+    height: 50px;
+    width: 1123px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border: 0;
+}
+
+.second_table, tbody>tr{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+
+    width: 1451px;
+    height: 65px;
+}
+.second_table tbody>tr>td{
+    padding-left: 25px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.delete{
+    border: 0;
+    width: 93px;
+    height: 33px;
+    left: 1132px;
+    top: 437px;
+
+    background: #FF8271;
+    border-radius: 10px;
+}
+
+.edit{
+    border: 0;
+    width: 93px;
+    height: 33px;
+    left: 1231px;
+    top: 437px;
+
+    background: #FFDD04;
+    border-radius: 10px;
+}
